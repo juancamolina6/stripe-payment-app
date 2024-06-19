@@ -14,7 +14,7 @@
     </form>
 
     @if(isset($status))
-        <p>Transaction Status: {{ $status }}</p>
+        <p>Estado de la transacción: {{ $status }}</p>
     @elseif(isset($error))
         <p>Error: {{ $error }}</p>
     @endif
